@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{f5703c0c-43aa-4d03-8ee2-b6ca3b00d460}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{128a87e4-8865-4b3e-9a84-9f1d5cec55de}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{4472e6fc-8fb6-47aa-a144-b5639db6025d}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="ResizableLib">
+      <UniqueIdentifier>{74741b73-ae44-4aa9-879d-62e76bbb8d6f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AboutDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogViewTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogViewTestView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyPages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AboutDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogViewTestView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyPages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\..\ResizableLib\RegisteredMsg.h">
+      <Filter>ResizableLib</Filter>
+    </ClInclude>
+    <ClInclude Include=".\..\ResizableLib\ResizableDialog.h">
+      <Filter>ResizableLib</Filter>
+    </ClInclude>
+    <ClInclude Include=".\..\ResizableLib\ResizableGrip.h">
+      <Filter>ResizableLib</Filter>
+    </ClInclude>
+    <ClInclude Include=".\..\ResizableLib\ResizableLayout.h">
+      <Filter>ResizableLib</Filter>
+    </ClInclude>
+    <ClInclude Include=".\..\ResizableLib\ResizableLib.h">
+      <Filter>ResizableLib</Filter>
+    </ClInclude>
+    <ClInclude Include=".\..\ResizableLib\ResizableMinMax.h">
+      <Filter>ResizableLib</Filter>
+    </ClInclude>
+    <ClInclude Include=".\..\ResizableLib\ResizableMsgSupport.h">
+      <Filter>ResizableLib</Filter>
+    </ClInclude>
+    <ClInclude Include=".\..\ResizableLib\ResizablePage.h">
+      <Filter>ResizableLib</Filter>
+    </ClInclude>
+    <ClInclude Include=".\..\ResizableLib\ResizableSheet.h">
+      <Filter>ResizableLib</Filter>
+    </ClInclude>
+    <ClInclude Include=".\..\ResizableLib\ResizableState.h">
+      <Filter>ResizableLib</Filter>
+    </ClInclude>
+    <ClInclude Include=".\..\ResizableLib\ResizableVersion.h">
+      <Filter>ResizableLib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\DialogViewTest.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DialogViewTest.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
